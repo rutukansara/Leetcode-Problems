@@ -1,4 +1,4 @@
-class Solution(object):
-    def defangIPaddr(self, address):
-        new_add = address.replace('.', '[.]')
-        return new_add
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+        address = address.replace('.', '[.]')
+        return address

@@ -1,8 +1,10 @@
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
-        duplicates = 0
-        for i in range(len(nums)-1):
-            for j in range(i+1, len(nums)):
-                if nums[i] == nums[j]:
-                    duplicates +=1
-        return duplicates
+        hashtable = {}
+        for i in nums:
+            hashtable[i] = hashtable.get(i, 0) + 1
+        sum = 0
+        for k, v in hashtable.items():
+            if v > 1:
+                sum = sum + (v*(v-1))/2
+        return int(sum)

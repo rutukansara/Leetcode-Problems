@@ -6,10 +6,12 @@ These are my submissions of the leetcode Algorithms problem set
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/rutukansara/Leetcode-Problems/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/rutukansara/Leetcode-Problems/tree/master/0217-contains-duplicate) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/rutukansara/Leetcode-Problems/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/rutukansara/Leetcode-Problems/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/rutukansara/Leetcode-Problems/tree/master/0242-valid-anagram) |
 ## Sorting
